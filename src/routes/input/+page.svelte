@@ -9,8 +9,8 @@
   const hints: Record<number, string> = {
     1: 'CÆSARbase8^2',
     2: 'strings and xxd may help you',
-    3: 'what is RSA encryption',
-    11300111: "what's is this? Or who?",
+    3: 'What is RSA encryption',
+    11300111: "What's this? Or who?",
   };
 </script>
 
