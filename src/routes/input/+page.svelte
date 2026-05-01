@@ -7,9 +7,9 @@
 
   let showHint = $state(0);
   const hints: Record<number, string> = {
-    1: 'b4ss_8^2',
-    2: 'https://slides.com/ying_ouob/code#/2/7',
-    3: 'Google what is RSA encryption',
+    1: 'CÆSARbase8^2',
+    2: 'strings and xxd may help you',
+    3: 'what is RSA encryption',
   };
 </script>
 
