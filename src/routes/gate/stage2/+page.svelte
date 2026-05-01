@@ -13,7 +13,7 @@
     a.click();
     document.body.removeChild(a);
 
-    setTimeout(() => goto(`/?stage=${next}`), 800);
+    setTimeout(() => goto(`/input/?stage=${next}`), 800);
   });
 </script>
 

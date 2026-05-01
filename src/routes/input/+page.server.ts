@@ -21,9 +21,9 @@ export const actions: Actions = {
 
     if (flag === FLAGS[stage]) {
       if (stage === 1) {
-        redirect(303, '/gate/execution?next=2');
+        redirect(303, '/gate/stage2?next=2');
       } else if (stage === 2) {
-        redirect(303, 'gate/hypereality?next=3')
+        redirect(303, '/gate/stage3?next=3')
       } else {
         redirect(303, '/');
       }
