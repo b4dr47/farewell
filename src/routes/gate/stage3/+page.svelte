@@ -7,8 +7,8 @@
     const next = $page.url.searchParams.get('next') ?? '1';
 
     const a = document.createElement('a');
-    a.href = '/stage3.tar.gz';
-    a.download = 'stage3.tar.gz';
+    a.href = '/stage3.zip';
+    a.download = 'stage3.zip';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
